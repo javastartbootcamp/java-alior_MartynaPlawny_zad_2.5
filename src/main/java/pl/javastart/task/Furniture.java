@@ -5,10 +5,10 @@ public class Furniture {
     int amount;
     String name;
 
-    Furniture() {
-        material = "wood";
-        amount = 1;
-        name = "table";
+    Furniture(String m, int a, String n) {
+        material = m;
+        amount = a;
+        name = n;
     }
 
     public void showInfo() {
